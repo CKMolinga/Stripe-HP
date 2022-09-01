@@ -8,7 +8,7 @@ export const AppProvider = ({ children }) => {
     const [isSubmenuOpen, setIsSubmenuOpen] = useState(true)
 
     const openSidebar = () => {
-        setIsSidebarOpen(true)
+        setIsSidebarOpen(false)
     }
     const closeSidebar = () => {
         setIsSidebarOpen(false)
