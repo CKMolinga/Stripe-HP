@@ -32,7 +32,8 @@ export const AppProvider = ({ children }) => {
         isSubmenuOpen,
         openSubmenu,
         closeSubmenu,
-        location,}}>{children}</AppContenxt.Provider>
+        location,
+    page}}>{children}</AppContenxt.Provider>
 }
 
 export const useGlobalContext = () => { return useContext(AppContenxt)} 
